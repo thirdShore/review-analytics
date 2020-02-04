@@ -25,3 +25,10 @@ print('一共有',len(new),'条留言长度小于100')
 print(new[0])
 print(new[1])
 
+# reviews incloude good
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('一共有',len(good),'条留言提到good')
+print(good[0])
